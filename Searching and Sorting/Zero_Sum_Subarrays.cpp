@@ -1,11 +1,9 @@
 
 /* 
-   Problem Link
-   https://practice.geeksforgeeks.org/problems/zero-sum-subarrays1825/1
+    Problem Link
+    https://practice.geeksforgeeks.org/problems/zero-sum-subarrays1825/1
 
-*/
 
-/*
     Idea is to maintain a map of sums, and whenever a sum is repeated means 
     a zero sum subarray has encountered
     By defualt all values of map are set to zero 
