@@ -4,7 +4,7 @@ class Solution {
 public:
     
     vector<vector<int>> paths;
-    void bfs(vector<vector<int>>& graph,int node,int k,vector<int> v){
+    void dfs(vector<vector<int>>& graph,int node,int k,vector<int> v){
         if(node==k){
             v.push_back(node);
             paths.push_back(v);
